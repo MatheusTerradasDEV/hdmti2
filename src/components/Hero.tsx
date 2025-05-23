@@ -22,14 +22,14 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-8 text-blue-900 animate-slideUp">
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-8 text-blue-900 animate-slideUp">
             O que o poder da informação pode{' '}
             <span className="bg-gradient-to-r from-blue-600 to-blue-400 text-transparent bg-clip-text">
               fazer pelo seu negócio?
             </span>
           </h1>
           
-          <p className="text-lg md:text-xl text-gray-700 max-w-3xl mb-10 animate-fadeIn delay-100">
+          <p className="text-base md:text-lg text-gray-700 max-w-2xl mb-10 animate-fadeIn delay-100">
             Com mais de 14 anos de experiência no mercado, oferecemos soluções personalizadas
             que atendem às reais necessidades do seu negócio.
           </p>
