@@ -3,7 +3,7 @@ import { ExternalLink } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="pt-24 pb-16 md:pt-32 md:pb-24 relative overflow-hidden">
+    <section className="pt-40 pb-32 md:pt-64 md:pb-48 relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <video
           autoPlay
@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-8 text-blue-900 animate-slideUp">
+          <h1 className="text-2xl md:text-5xl font-bold leading-tight mb-8 text-blue-900 animate-slideUp">
             O que o poder da informação pode{' '}
             <span className="bg-gradient-to-r from-blue-600 to-blue-400 text-transparent bg-clip-text">
               fazer pelo seu negócio?
